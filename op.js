@@ -1,1 +1,1 @@
-console.log("javascipt file");
+console.log("javaascipt file");
