@@ -1,0 +1,29 @@
+GIT COMMANDS
+
+for master being up to date : git pull origin master
+for creating new branch : git checkout -b new_branch_name  ; [gets all the details as a copy from master including uncommited changes]
+for creating new branch from specific branch : git checkout -b new_branch_name origin/master
+
+## do the changes
+## make sure to push chnages from change area to staged area [the changes presnt in the staged area are pushed into the commit]
+## as soon as the changes are done they shld be added to staged area so. if thy are added directly to commit without staged area thn chances of errors are more and every time we cannot select a differnt change to commit as thr is no common space 
+
+git add . : dot will add all the changed files to staged area
+git add filename : only adds specific file mentioned to staged area
+
+## commit the changes from the staged area
+
+git commit -m "message": commits the changes in staged area 
+
+## now we need push the commited changes to the main central repo
+
+git push origin branch_name : pushes the commits in the specified branch to the main repo
+
+## go to the git hub browser and publish the branch(1st tym)
+## check merge conflicts for the created PR after publishing
+
+
+
+
+
+
